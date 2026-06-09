@@ -9,6 +9,30 @@ It lets an MCP client (Claude Desktop, Cursor) read and act on Telegram on your 
 > rate limiting + flood/429 backpressure + circuit breaker), and a `doctor`
 > self-check. Distributed via `npx`, with full exported types.
 
+## 🚀 Getting Started — read this first
+
+### 👉 [**Click here for the full Step-by-Step Install & Setup Guide**](./GETTING-STARTED.md)
+
+> The **easiest way to install this** and connect it to **Claude Desktop / Claude
+> Code / Cursor** — getting credentials, configuring your client, and running your
+> first test, all explained for beginners. **Start here. 👈**
+
+---
+
+## Install (quick reference)
+
+Published on npm as **[`telegram-mcp-ts`](https://www.npmjs.com/package/telegram-mcp-ts)**.
+Your MCP client runs it on demand — **no manual install needed**:
+
+```bash
+npx telegram-mcp-ts            # the server (your client launches this for you)
+npx telegram-mcp-ts-auth login # one-time login for personal-account (MTProto) mode
+```
+
+Prefer the commands on your PATH? Install globally: `npm install -g telegram-mcp-ts`.
+
+The rest of this README is the full reference (modes, all tools, safety, advanced flags).
+
 ## Reliability & account safety
 
 Driving a personal account via automation can get it **banned** if it looks like
