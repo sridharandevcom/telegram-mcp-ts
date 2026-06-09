@@ -1,6 +1,6 @@
 {
   "name": "telegram-mcp-ts",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "TypeScript-native, dual-mode (MTProto user account + Bot API) Model Context Protocol server for Telegram.",
   "type": "module",
   "license": "MIT",
