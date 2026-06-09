@@ -1,0 +1,24 @@
+node_modules/
+dist/
+*.log
+
+# npm pack artifacts
+*.tgz
+
+# local test sandbox + downloaded media
+mcp-sandbox/
+downloads/
+
+# Maintainer-only docs — kept locally, not published
+HOWTO.md
+PUBLISHING.md
+TESTING.md
+ROADMAP.md
+
+# Never commit secrets or the Telegram session string
+.env
+.env.local
+*.session
+
+# Contains live API hash + session string (full account access) — never commit
+.mcp.json

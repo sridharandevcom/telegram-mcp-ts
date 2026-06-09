@@ -1,0 +1,48 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.json",
+  "name": "io.github.sridharandevcom/telegram-mcp-ts",
+  "description": "TypeScript-native, dual-mode (MTProto user account + Bot API) MCP server for Telegram.",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/sridharandevcom/telegram-mcp-ts",
+    "source": "github"
+  },
+  "version": "0.7.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "telegram-mcp-ts",
+      "version": "0.7.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "TELEGRAM_API_ID",
+          "description": "MTProto API ID from https://my.telegram.org (enables user-account tools).",
+          "isRequired": false,
+          "isSecret": false
+        },
+        {
+          "name": "TELEGRAM_API_HASH",
+          "description": "MTProto API hash from https://my.telegram.org.",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "TELEGRAM_SESSION",
+          "description": "Reusable session string from `telegram-mcp-ts-auth login` (grants full account access).",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "TELEGRAM_BOT_TOKEN",
+          "description": "Bot API token from @BotFather (enables bot tools).",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
