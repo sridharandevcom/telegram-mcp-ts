@@ -15,7 +15,7 @@ It lets an MCP client (Claude Desktop, Cursor) read and act on Telegram on your 
 
 > The **easiest way to install this** and connect it to **Claude Desktop / Claude
 > Code / Cursor** — getting credentials, configuring your client, and running your
-> first test, all explained for beginners. **Start here. 👈**
+> first test, all explained for beginners.
 
 ---
 
